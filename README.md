@@ -9,5 +9,8 @@ Repository Desc: Repository for CTI-110 Course Work.
 # About Me
 
 ## My Interests
+- Video Games
+- Movies
+- Physical Fitness
 
 ## Useful Sites I Recommend
