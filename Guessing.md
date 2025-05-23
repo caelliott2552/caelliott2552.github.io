@@ -8,6 +8,6 @@ graph TD;
     E-->G[/Display message: "You Lose!"/];
     F-->H[/Ask Player: "Play again? Y/N" /];
     G-->H[/Ask Player: "Play again? Y/N" /];
-    H-- if playAgain = "Y" -->I[Game Restarts]
-    H-- if playAgain = "N" -->J[Game Ends]
+    H-- if playAgain = Y -->I[Game Restarts]
+    H-- if playAgain = N -->J[Game Ends]
 ```
