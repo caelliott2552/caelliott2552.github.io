@@ -7,5 +7,5 @@ graph TD;
     D[Player Wins]-->F[/Display message: "You Win!"/];
     E[Player Loses]-->G[/Display message: "You Lose!"/];
     D-->H;
-    E--H;
+    E-->H;
 ```
