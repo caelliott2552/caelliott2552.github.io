@@ -4,6 +4,6 @@ graph TD;
     B[Game Master rolls a 6 sided die]-->C[/Player guesses a number between 1 and 6/];
     C[/Player guesses a number between 1 and 6/]-- if numberRolled = numberGuessed -->D[Player Wins];
     C[/Player guesses a number between 1 and 6/]-- if numberRolled != numberGuessed -->E[Player Loses];
-    D[Player Wins]-->F[/Display message: "You Win!"];
-    E[Player Loses]-->G[/Display message: "You Lose!"];
+    D[Player Wins]-->F[/Display message: "You Win!"/];
+    E[Player Loses]-->G[/Display message: "You Lose!"/];
 ```
