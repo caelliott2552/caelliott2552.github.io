@@ -14,3 +14,6 @@ Repository Desc: Repository for CTI-110 Course Work.
 - Physical Fitness
 
 ## Useful Sites I Recommend
+- [YouTube](www.youtube.com)
+- [Quizlet](www.quizlet.com)
+- [Udemy](www.udemy.com)
