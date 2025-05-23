@@ -6,6 +6,6 @@ graph TD;
     C-- if numberRolled != numberGuessed -->E[Player Loses];
     D-->F[/Display message: "You Win!"/];
     E-->G[/Display message: "You Lose!"/];
-    F-->H;
-    G-->H;
+    F-->H[/Ask Player: "Play again? Y/N" /];
+    G-->H[/Ask Player: "Play again? Y/N" /];
 ```
