@@ -6,4 +6,6 @@ graph TD;
     C[/Player guesses a number between 1 and 6/]-- if numberRolled != numberGuessed -->E[Player Loses];
     D[Player Wins]-->F[/Display message: "You Win!"/];
     E[Player Loses]-->G[/Display message: "You Lose!"/];
+    D-->H;
+    E--H;
 ```
