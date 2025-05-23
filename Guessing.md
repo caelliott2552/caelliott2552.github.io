@@ -1,7 +1,6 @@
 ```mermaid
 graph TD;
     A([Start])-->B;
-    A-->C;
+    B-->C;
     B-->D;
-    C-->D;
 ```
