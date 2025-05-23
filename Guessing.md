@@ -1,6 +1,6 @@
 ```mermaid
 
 flowchart TD
-    Start --> End
+    ([Start]) --> Step 1
 
 ```
