@@ -1,4 +1,4 @@
-const { append } = require("express/lib/response");
+//const { append } = require("express/lib/response");
 
 function fetchGradeData() {
     // This function will query the PostgreSQL database and return grade data
@@ -35,7 +35,7 @@ function populateGradebook(data) {
             columns.name = document.createElement('td'); //First column's table data will be the name
             columns.name.appendChild(
                 // Concatenate the full name: -- "last name, first name"
-                document.createTextNode(assignment.last_name + " " + assignment.first_name)
+                document.createTextNode(assignment.last_name + ", " + assignment.first_name)
 
             );
             columns.grade = document.createElement('td');
